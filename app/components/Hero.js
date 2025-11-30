@@ -13,12 +13,12 @@ export default function Hero() {
                   <button className='font-medium text-[12px] leading-[18px] py-[15px] px-[27px] rounded-[25px] text-white bg-black mt-6'>Contact Today</button>
                 </div>
                 </div>
-                <div className='max-w-[1190px]'>
+                <div className='max-w-[1190px] relative'>
                   <img src="/images/hero.png" alt="" 
-                  className='w-auto lg:max-w-[138%] ml-[-47px] lg:ml-[-265px] mt-[53px] lg:mt-0 relative'
+                  className='w-auto lg:max-w-[138%] ml-[-47px] lg:ml-[-265px] mt-[53px] lg:mt-0'
                   />
                   <img src="/images/hero2.png" alt="" 
-                  className='absolute w-[155px] md:w-[275px] lg:w-[340px] top-[695px] lg:top-[475px] right-[165px] sm:right-[280px] lg:right-[989px]'
+                  className='absolute w-[155px] sm:w-[190px] md:w-[275px] lg:w-[340px] top-[104px] sm:top-[218px] md:top-[241px] lg:top-[250px] xl:top-[340px] right-[142px] sm:right-[230px] md:right-[260px] lg:right-[270px] xl:right-[290px]'
                   />
                 </div>
             </div>
