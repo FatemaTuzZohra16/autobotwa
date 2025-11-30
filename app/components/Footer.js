@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <div className='bg-black pt-10 pb-[30px]'> 
         <Container>
-            <div className='flex justify-between text-white'>
-                <div>
+            <div className='flex flex-wrap justify-between text-white'>
+                <div className='mb-5 md:mb-0'>
                     <img  src='/images/footerLogo.png'/>
                 </div>
                 <div>
@@ -17,11 +17,11 @@ export default function Footer() {
                     <p className='text-[16px] leading-6'>27 Division St, New York, NY <br/> 10002, United States</p>
                 </div>
             </div>
-            <div className='flex justify-between border-t border-b border-[#181a18] mt-5 pt-12 pb-[57px] text-[#F0F0F0]'>
+            <div className='flex flex-wrap justify-between border-t border-b border-[#181a18] mt-5 pt-12 pb-[57px] text-[#F0F0F0]'>
                 <div>
                     <p className='text-[16px] leading-6'>Ewebot have much planned for <br/> the future, working with great <br/> clients and continued software <br/> development.</p>
                 </div>
-                <div>
+                <div className='mb-7 md:mb-0'>
                     <p className='text-[15px] leading-[31px] mb-3'>SEO Marketing</p>
                     <p className='text-[15px] leading-[31px] mb-3'>SEO Services</p>
                     <p className='text-[15px] leading-[31px] mb-3'>Pay Per Click</p>

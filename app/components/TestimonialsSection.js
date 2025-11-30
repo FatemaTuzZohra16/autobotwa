@@ -34,7 +34,7 @@ export function TestimonialsSection() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance inter">
+          <h2 className="text-3xl sm:text-[43px] md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance inter">
             Trusted by Industry Leaders
           </h2>
           <p className="text-lg text-para max-w-2xl mx-auto">
